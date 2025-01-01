@@ -207,20 +207,24 @@ h1 i{
 
 /*----------------- page 2 styling  -----------------*/
 .main{
-    width: 75%;
-    height: 140px;
+    width: 100%;
+    height: 700px;
     /* background: black; */
-    margin-bottom: 20rem;
+    /* margin-bottom: 10rem; */
+    margin-top: 7.2rem;
 }
 .heading2{
-    width: 100%;
+    width: 75%;
     height: 40px;
     /* background: red; */
     margin-bottom: 30px;
+    margin-left: auto;  
+    margin-right: auto;
     display: flex;   
     justify-content: center;
     justify-content: space-between;
     /* align-items: center; */
+    text-align: center;
 }
 .h2left{
     width: 35%;
@@ -230,7 +234,7 @@ h1 i{
 .content2{
     width: 20%;
     height: 40px;
-    /* background: green; */
+    /* background: green;       */
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: 25px;
@@ -253,4 +257,110 @@ hr{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     font-size: 15px;
+}
+
+.collections{
+    width: 100%;
+    height: 380px;
+    /* background-color: green; */
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    width: 22.5%;
+    height: 370px;
+}
+.top{
+    width: 22.5;
+    height: 290px;
+    /* background: purple; */
+    transition: 0.3s;
+}
+.top1{
+    background-image: url(https://static.wixstatic.com/media/f61af8_f1b4935e34bc45bbbc7c7e7f1d26e7ca~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_f1b4935e34bc45bbbc7c7e7f1d26e7ca~mv2_d_1776_1776_s_2.jpg);
+    
+}
+.top2{
+    background-image: url(https://static.wixstatic.com/media/f61af8_cf15a1c505cf47d39071f0773d55babc~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_cf15a1c505cf47d39071f0773d55babc~mv2_d_1776_1776_s_2.jpg);
+}
+.top3{
+    background-image: url(https://static.wixstatic.com/media/f61af8_c8640a46dfa04f29aa48d3ce483eb046~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_c8640a46dfa04f29aa48d3ce483eb046~mv2_d_1776_1776_s_2.jpg)
+}
+.top4{
+    background-image: url(https://static.wixstatic.com/media/f61af8_4cc4afe185164891bf60c5fda3eb8a97~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_4cc4afe185164891bf60c5fda3eb8a97~mv2_d_1776_1776_s_2.jpg);
+}
+.top1:hover{
+    background-image: url(https://static.wixstatic.com/media/f61af8_a6ba8d1aad4f4500aea89c65bbd77dd7~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_a6ba8d1aad4f4500aea89c65bbd77dd7~mv2_d_1776_1776_s_2.jpg);
+    cursor: pointer;
+}
+.top2:hover{
+    background-image: url(https://static.wixstatic.com/media/f61af8_9fed3890a0a94d60ab3d785bf152ac67~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_9fed3890a0a94d60ab3d785bf152ac67~mv2_d_1776_1776_s_2.jpg);
+    cursor: pointer;
+}
+.top3:hover{
+    background-image: url(https://static.wixstatic.com/media/f61af8_56f1c3f992674f9994c1dd20cb0bce3b~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_56f1c3f992674f9994c1dd20cb0bce3b~mv2_d_1776_1776_s_2.jpg);
+    cursor: pointer;
+}
+.top4:hover{
+    background-image: url(https://static.wixstatic.com/media/f61af8_8df98f00b7644648b9a50983b443e97b~mv2_d_1776_1776_s_2.jpg/v1/fill/w_302,h_302,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f61af8_8df98f00b7644648b9a50983b443e97b~mv2_d_1776_1776_s_2.jpg);
+    cursor: pointer;
+}
+.bottom{
+    width: 22.5;
+    height: 80px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* msg hover effect  */
+.msg{
+    width: 22.5;
+    height: 50px;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: relative;
+    top: 280px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.msg:hover{
+    transform: translateY(-40px);
+    transition: 0.1s;
+    opacity: 10;
+}
+.msg p{
+    text-align: center;
+}
+.shopAll{
+    width: 100%;
+    height: 40px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center ;
+}
+.shopAll a{
+    width: 12%;
+    height: 40px;
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.shopAll input{
+    width: 100%;
+    background: none;
+    color: white;
+    background-color: rgba(2, 2, 27, 0.904);
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.shopAll input:hover{
+    background-color: rgba(2, 2, 27, 0.562);
 }
