@@ -18,6 +18,20 @@
     background-color: white;
     background-attachment: fixed;
 }
+.container3{
+    background-image: url(https://images.unsplash.com/photo-1518744865364-a5323b5a9e29?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    height: 60vh;
+}
+.container4{
+    background-color: rgba(2, 2, 27, 0.904);
+    background-attachment: scroll;
+    height: 60vh;
+}
+.container5{
+    background-color: rgb(217, 233, 233);
+    background-attachment: fixed;
+}
 /* navbar styling  */
 
 .navbar{
@@ -363,4 +377,52 @@ p{
 }
 .shopAll input:hover{
     background-color: rgba(2, 2, 27, 0.562);
+}
+
+/*----------------- page 3 styling  -----------------*/
+h3{
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.container4 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25PX;
+    color: white;
+}
+.author{
+    width: 100%;
+}
+
+/*----------------- page 4 styling  -----------------*/
+
+.getToKnow {
+    width: 75%;
+    height: 500px;
+    display: flex;
+}
+.left {
+    width: 40%;
+    height: 500px;
+    /* background: green; */
+}
+.right {
+    width: 60%;
+    height: 500px;
+    background: yellow;
+}
+h4{
+    font-size: 35px;
+    margin-left: 20px;
+    color: rgba(2, 2, 27, 0.904);
+}
+.left p{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5rem;
+}
+.left font{
+    color: rgba(2, 2, 27, 0.562);
 }
