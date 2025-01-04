@@ -10,11 +10,14 @@
             margin: 0;
             padding: 0;
         }
+        html{
+            scroll-behavior: smooth;
+        }
     </style>
     <title>Tea Shop</title>
 </head>
 <body>
-    <div class="container container1">
+    <div id="home" class="container container1">
         <div class="navbar">
             <div class="search">
                 <i class="bi bi-search"></i>
@@ -22,7 +25,7 @@
             </div>
             <div class="login">
                 <a href=""><font color="white"><i class="bi bi-person-circle"></i></font></a>
-                <a href="" style="text-decoration: none;"><font size="5">Log In</font></a>
+                <a href="" style="text-decoration: none;"><font size="3">Log In</font></a>
                 <a href=""><font color="white"><i class="bi bi-bag-fill"></i></a></font>
             </div> 
             <div class="navBottom">
@@ -219,10 +222,34 @@
 
                 <div class="down">
                     <label><font>Enter your email here *</font></label><br>
-                    <input type="text">
+                    <input type="text" class="userInput">
                     <input type="submit" value="Subscribe Now" class="submit">
+                    <input type="checkbox" class="checkbox"><label for=""><font>Yes, subscribe me to your newsletter.</font></label>
                 </div>
             </div>
+        </div>
+        <div class="bottomBorder">
+            
+        </div>
+    </div>
+    
+    <div class="container container6">
+        <div class="footerLeft">
+            <p>
+                <font>
+                    ©2035 by Bloom's Tea. Powered and secured by 
+                    <a href="">
+                        <font>
+                            Wix
+                        </font>
+                    </a>
+                </font>
+            </p>
+        </div>
+        <div class="footerRight">
+            <a href="#home">
+            <span class="bi bi-arrow-up"></span><font>Back to top</font>
+            </a>
         </div>
     </div>
 </body>
