@@ -332,7 +332,7 @@ hr{
     cursor: pointer;
 }
 .bottom{
-    width: 22.5;
+    /* width: 22.5; */
     height: 80px;
 }
 p{
@@ -343,7 +343,7 @@ p{
 
 /* msg hover effect  */
 .msg{
-    width: 22.5;
+    /* width: 22.5; */
     height: 50px;
     background-color: rgb(255, 255, 255, 0.7);
     position: relative;
@@ -351,10 +351,10 @@ p{
     transition: 0.5s;
     opacity: 0;
 }
-.msg:hover{
+.top:hover .msg{
     transform: translateY(-40px);
     transition: 0.1s;
-    opacity: 10;
+    opacity: 1;
 }
 .msg p{
     text-align: center;
