@@ -334,6 +334,8 @@ hr{
 .bottom{
     /* width: 22.5; */
     height: 80px;
+    /* background: red; */
+    position: relative;
 }
 p{
     text-align: center;
@@ -342,6 +344,14 @@ p{
 }
 
 /* msg hover effect  */
+.quickMsg{
+    height: 80px;
+    background-color: purple;
+    position:absolute;
+}
+.box:hover .quickMsg {
+    transform: translateY(-90px);
+}
 .msg{
     /* width: 22.5; */
     height: 50px;
@@ -350,6 +360,7 @@ p{
     top: 280px;
     transition: 0.5s;
     opacity: 0;
+    background: yellow;
 }
 .top:hover .msg{
     transform: translateY(-40px);
