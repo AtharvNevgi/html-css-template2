@@ -558,6 +558,31 @@ h4{
     border: 1px solid black;
     background: none;
 }
+/* Remove the default appearance of the checkbox */
+.checkbox {
+    appearance: none; /* For modern browsers */
+    -webkit-appearance: none; /* For WebKit-based browsers like Chrome and Safari */
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    background: none;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Style for the checked state with a tick mark */
+.checkbox:checked::after {
+    content: '✔';
+    position: absolute;
+    top: 0;
+    left: 3px;
+    font-size: 10px;
+    color: black; /* Tick color */
+}
+
+.checkbox_label {
+    cursor: pointer;
+}
 .bottomBorder {
     /* background: red; */
     width: 100%;
