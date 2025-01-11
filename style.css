@@ -341,34 +341,29 @@ p{
     text-align: center;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
 }
 
 /* msg hover effect  */
-.quickMsg{
-    height: 80px;
-    background-color: purple;
-    position:absolute;
-}
-.box:hover .quickMsg {
-    transform: translateY(-90px);
-}
 .msg{
     /* width: 22.5; */
-    height: 50px;
+    height: 40px;
     background-color: rgb(255, 255, 255, 0.7);
     position: relative;
     top: 280px;
-    transition: 0.5s;
+    transition: 0.7s;
     opacity: 0;
-    background: yellow;
+    /* background: yellow; */
 }
-.top:hover .msg{
-    transform: translateY(-40px);
+.box:hover .msg{
+    transform: translateY(-30px);
     transition: 0.1s;
     opacity: 1;
 }
 .msg p{
     text-align: center;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .shopAll{
     width: 100%;
